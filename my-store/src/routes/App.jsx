@@ -9,7 +9,7 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   const fetchStatus = useSelector((store) => store.fetchStatus);
-  console.log(fetchStatus);
+
   return (
     <>
       <Header></Header>
